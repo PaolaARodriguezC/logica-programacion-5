@@ -9,13 +9,26 @@ public class Main {
 
                 // Crear el diccionario Español-Inglés
                 Map<String, String> dictionary = new HashMap<>();
-                dictionary.put("casa", "house");
-                dictionary.put("perro", "dog");
-                dictionary.put("gato", "cat");
-                dictionary.put("libro", "book");
-                dictionary.put("jugar", "play");
-                // Agrega más palabras al diccionario según sea necesario
-
+         dictionary.put("casa", "house");
+        dictionary.put("perro", "dog");
+        dictionary.put("gato", "cat");
+        dictionary.put("libro", "book");
+        dictionary.put("jugar", "play");
+        dictionary.put("hola", "hello");
+        dictionary.put("mesa", "table");
+        dictionary.put("amarillo", "yellow");
+        dictionary.put("manzana", "apple");
+        dictionary.put("agua", "water");
+        dictionary.put("carro", "car");
+        dictionary.put("familia", "family");
+        dictionary.put("escuela", "school");
+        dictionary.put("rojo", "red");
+        dictionary.put("verde", "green");
+        dictionary.put("azul", "blue");
+        dictionary.put("naranja", "orange");
+        dictionary.put("comer", "eat");
+        dictionary.put("bebida", "drink");
+        dictionary.put("trabajar", "work");
                 // Escoger al azar 5 palabras en español del mini diccionario
                 String[] spanishWords = dictionary.keySet().toArray(new String[0]);
                 String[] selectedWords = getRandomWords(spanishWords, 5);
